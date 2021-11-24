@@ -16,7 +16,8 @@ function main(){
   -2- Once you've added all your attributes, press "Enter" without inputing any text.
   -3- Next press the "y" key at the [y/n] prompt to add a new object.
   -4- Input all values for the attributes of the new object.
-  -5- End the program by pressing any other key at the [y/n] prompt\n`)
+  -5- End the program by pressing any other key at the [y/n] prompt\n
+  testing massive gitstuff`)
 
   // Adds new attributes until user stop input by sending an empty string
   while(true){
