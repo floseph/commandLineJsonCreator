@@ -13,11 +13,11 @@ function main(){
 
   console.log(`\n-+-+- Welcome to the commandLineJsonCreator -+-+-\n
   -1- First enter the names of the new attributes one by one.
-  -2- Once you've added all your attributes, press "Enter" without inputing any text.
+  -2- Press "Enter" without inputing any text to see the attributes you already added.
+  -3- Press "Enter" again without inputing any text to 
   -3- Next press the "y" key at the [y/n] prompt to add a new object.
   -4- Input all values for the attributes of the new object.
-  -5- End the program by pressing any other key at the [y/n] prompt\n
-  testing massive gitstuff`)
+  -5- End the program by pressing any other key at the [y/n] prompt\n`)
 
   // Adds new attributes until user stop input by sending an empty string
   while(true){
