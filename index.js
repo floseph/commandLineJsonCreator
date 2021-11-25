@@ -3,7 +3,7 @@ var readlineSync = require('readline-sync')
 
 // counters purely for more readable prompts
 let attributeCounter = 1
-let objectCounter = 0
+let objectCounter = 1
 // holds keys / names of the new attributes
 const attributes = []
 // holds all the objects that will get written to the JSON file
@@ -45,7 +45,7 @@ function main(){
   while(true){
 
     // Prompts user to chosose [y/n] 
-    if(!readlineSync.keyInYN(`Want to add object #${objectCounter+1}?`)) break
+    if(!readlineSync.keyInYN(`Want to add object #${objectCounter}?`)) break
 
     // empty object to be added to json file
     const newObject = {}
