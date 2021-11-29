@@ -53,6 +53,7 @@ function main(){
     // assign a value for every attribute (empty string possible)
     for(let i = 0; i < attributes.length; i++){
 
+      // reads user input
       const newValue = readlineSync.question(`\nObject #${newObjects.length+1}\nKey name : "${attributes[i]}" Enter value : `)
       newObject[attributes[i]] = newValue
       
