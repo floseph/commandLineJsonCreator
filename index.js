@@ -53,7 +53,7 @@ function main(){
     // assign a value for every attribute (empty string possible)
     for(let i = 0; i < attributes.length; i++){
 
-      // reads user input
+      // reads user inputs
       const newValue = readlineSync.question(`\nObject #${newObjects.length+1}\nKey name : "${attributes[i]}" Enter value : `)
       newObject[attributes[i]] = newValue
       
@@ -66,7 +66,7 @@ function main(){
   // stringifies + parses the file to product.json
   const newJson = JSON.stringify(newObjects, null, 2)
   fs.writeFileSync('product.json', newJson)
-  console.log("\nYour .JSON file is now available at './product.json'\n")
+  console.log("\n\nYour .JSON file is now available at './product.json'\n")
 }
 
 
